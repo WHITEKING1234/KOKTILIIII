@@ -1,0 +1,6 @@
+framework module Pods_KOKTILIIII_KOKTILIIIIUITests {
+  umbrella header "Pods-KOKTILIIII-KOKTILIIIIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

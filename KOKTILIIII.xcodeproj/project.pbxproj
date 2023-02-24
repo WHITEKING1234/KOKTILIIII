@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046F194129A6B3AD00E3EB3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F194029A6B3AD00E3EB3A /* AppDelegate.swift */; };
+		046F194329A6B3AD00E3EB3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F194229A6B3AD00E3EB3A /* SceneDelegate.swift */; };
+		046F194529A6B3AD00E3EB3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F194429A6B3AD00E3EB3A /* ViewController.swift */; };
+		046F194829A6B3AD00E3EB3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F194629A6B3AD00E3EB3A /* Main.storyboard */; };
+		046F194A29A6B3B000E3EB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046F194929A6B3B000E3EB3A /* Assets.xcassets */; };
+		046F194D29A6B3B000E3EB3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F194B29A6B3B000E3EB3A /* LaunchScreen.storyboard */; };
+		046F195829A6B3B000E3EB3A /* KOKTILIIIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F195729A6B3B000E3EB3A /* KOKTILIIIITests.swift */; };
+		046F196229A6B3B000E3EB3A /* KOKTILIIIIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F196129A6B3B000E3EB3A /* KOKTILIIIIUITests.swift */; };
+		046F196429A6B3B000E3EB3A /* KOKTILIIIIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F196329A6B3B000E3EB3A /* KOKTILIIIIUITestsLaunchTests.swift */; };
+		046F197229A6B79100E3EB3A /* NetworkLyare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F197129A6B79100E3EB3A /* NetworkLyare.swift */; };
+		046F197429A6B81300E3EB3A /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F197329A6B81300E3EB3A /* Drinks.swift */; };
+		046F197829A6BAF200E3EB3A /* KokoCollectinViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F197629A6BAF200E3EB3A /* KokoCollectinViewCell.swift */; };
+		046F197929A6BAF200E3EB3A /* KokoCollectinViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046F197729A6BAF200E3EB3A /* KokoCollectinViewCell.xib */; };
+		046F197B29A6C35B00E3EB3A /* ImageVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F197A29A6C35B00E3EB3A /* ImageVIew.swift */; };
+		046F19BA29A7626E00E3EB3A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F19B929A7626E00E3EB3A /* ProfileView.swift */; };
+		046F19BD29A76A2E00E3EB3A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F19BC29A76A2E00E3EB3A /* InfoView.swift */; };
+		046F19C029A7756800E3EB3A /* PeopleSmscell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F19BE29A7756800E3EB3A /* PeopleSmscell.swift */; };
+		046F19C129A7756800E3EB3A /* PeopleSmscell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046F19BF29A7756800E3EB3A /* PeopleSmscell.xib */; };
+		046F19C329A8F2AC00E3EB3A /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F19C229A8F2AC00E3EB3A /* DataBase.swift */; };
+		046F19D129A9616500E3EB3A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F19D029A9616500E3EB3A /* MainViewModel.swift */; };
+		9FBD9D31C0032EF0A356BD59 /* Pods_KOKTILIIII_KOKTILIIIIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E7A213A6D8BCBEB7CCAEB4 /* Pods_KOKTILIIII_KOKTILIIIIUITests.framework */; };
+		A9CB8134D10A484DE4A24EB1 /* Pods_KOKTILIIII.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7928266A94BF4ABEBA81EB7F /* Pods_KOKTILIIII.framework */; };
+		BB7C01EADEA4D88DB54C75CC /* Pods_KOKTILIIIITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB26C7FFA7FF5A8D0DAB68D /* Pods_KOKTILIIIITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046F195429A6B3B000E3EB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046F193529A6B3AD00E3EB3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046F193C29A6B3AD00E3EB3A;
+			remoteInfo = KOKTILIIII;
+		};
+		046F195E29A6B3B000E3EB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046F193529A6B3AD00E3EB3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046F193C29A6B3AD00E3EB3A;
+			remoteInfo = KOKTILIIII;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046F193D29A6B3AD00E3EB3A /* KOKTILIIII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOKTILIIII.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F194029A6B3AD00E3EB3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046F194229A6B3AD00E3EB3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		046F194429A6B3AD00E3EB3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046F194729A6B3AD00E3EB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046F194929A6B3B000E3EB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046F194C29A6B3B000E3EB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046F194E29A6B3B000E3EB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046F195329A6B3B000E3EB3A /* KOKTILIIIITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOKTILIIIITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F195729A6B3B000E3EB3A /* KOKTILIIIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOKTILIIIITests.swift; sourceTree = "<group>"; };
+		046F195D29A6B3B000E3EB3A /* KOKTILIIIIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOKTILIIIIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F196129A6B3B000E3EB3A /* KOKTILIIIIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOKTILIIIIUITests.swift; sourceTree = "<group>"; };
+		046F196329A6B3B000E3EB3A /* KOKTILIIIIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOKTILIIIIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		046F197129A6B79100E3EB3A /* NetworkLyare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLyare.swift; sourceTree = "<group>"; };
+		046F197329A6B81300E3EB3A /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		046F197629A6BAF200E3EB3A /* KokoCollectinViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokoCollectinViewCell.swift; sourceTree = "<group>"; };
+		046F197729A6BAF200E3EB3A /* KokoCollectinViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KokoCollectinViewCell.xib; sourceTree = "<group>"; };
+		046F197A29A6C35B00E3EB3A /* ImageVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVIew.swift; sourceTree = "<group>"; };
+		046F19B929A7626E00E3EB3A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		046F19BC29A76A2E00E3EB3A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		046F19BE29A7756800E3EB3A /* PeopleSmscell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleSmscell.swift; sourceTree = "<group>"; };
+		046F19BF29A7756800E3EB3A /* PeopleSmscell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleSmscell.xib; sourceTree = "<group>"; };
+		046F19C229A8F2AC00E3EB3A /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		046F19D029A9616500E3EB3A /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		1993F06CC2CB8B7FCF8EBEC8 /* Pods-KOKTILIIII.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOKTILIIII.release.xcconfig"; path = "Target Support Files/Pods-KOKTILIIII/Pods-KOKTILIIII.release.xcconfig"; sourceTree = "<group>"; };
+		7928266A94BF4ABEBA81EB7F /* Pods_KOKTILIIII.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KOKTILIIII.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		808656BB39402306567A978F /* Pods-KOKTILIIII-KOKTILIIIIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOKTILIIII-KOKTILIIIIUITests.release.xcconfig"; path = "Target Support Files/Pods-KOKTILIIII-KOKTILIIIIUITests/Pods-KOKTILIIII-KOKTILIIIIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8958F322B6DF23526728DC71 /* Pods-KOKTILIIIITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOKTILIIIITests.release.xcconfig"; path = "Target Support Files/Pods-KOKTILIIIITests/Pods-KOKTILIIIITests.release.xcconfig"; sourceTree = "<group>"; };
+		89758745B4D35F0F2B64EBC2 /* Pods-KOKTILIIII.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOKTILIIII.debug.xcconfig"; path = "Target Support Files/Pods-KOKTILIIII/Pods-KOKTILIIII.debug.xcconfig"; sourceTree = "<group>"; };
+		AE01C6C184E5B8224EB99577 /* Pods-KOKTILIIII-KOKTILIIIIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOKTILIIII-KOKTILIIIIUITests.debug.xcconfig"; path = "Target Support Files/Pods-KOKTILIIII-KOKTILIIIIUITests/Pods-KOKTILIIII-KOKTILIIIIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCB26C7FFA7FF5A8D0DAB68D /* Pods_KOKTILIIIITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KOKTILIIIITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E7A213A6D8BCBEB7CCAEB4 /* Pods_KOKTILIIII_KOKTILIIIIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KOKTILIIII_KOKTILIIIIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E703AB3B79EA780ED30BF09D /* Pods-KOKTILIIIITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOKTILIIIITests.debug.xcconfig"; path = "Target Support Files/Pods-KOKTILIIIITests/Pods-KOKTILIIIITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046F193A29A6B3AD00E3EB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CB8134D10A484DE4A24EB1 /* Pods_KOKTILIIII.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F195029A6B3B000E3EB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7C01EADEA4D88DB54C75CC /* Pods_KOKTILIIIITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F195A29A6B3B000E3EB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBD9D31C0032EF0A356BD59 /* Pods_KOKTILIIII_KOKTILIIIIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046F193429A6B3AD00E3EB3A = {
+			isa = PBXGroup;
+			children = (
+				046F193F29A6B3AD00E3EB3A /* KOKTILIIII */,
+				046F195629A6B3B000E3EB3A /* KOKTILIIIITests */,
+				046F196029A6B3B000E3EB3A /* KOKTILIIIIUITests */,
+				046F193E29A6B3AD00E3EB3A /* Products */,
+				42AAF162F834F143B0EEC180 /* Pods */,
+				C6A3DAE7C8CD6CB90989DC97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046F193E29A6B3AD00E3EB3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046F193D29A6B3AD00E3EB3A /* KOKTILIIII.app */,
+				046F195329A6B3B000E3EB3A /* KOKTILIIIITests.xctest */,
+				046F195D29A6B3B000E3EB3A /* KOKTILIIIIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046F193F29A6B3AD00E3EB3A /* KOKTILIIII */ = {
+			isa = PBXGroup;
+			children = (
+				046F19CF29A960F000E3EB3A /* APP */,
+				046F19CC29A95FF400E3EB3A /* View */,
+				046F19CB29A95FDC00E3EB3A /* ViewModel */,
+				046F19CA29A95FD000E3EB3A /* Model */,
+				046F19BB29A76A1000E3EB3A /* InfoView */,
+				046F19B829A7624B00E3EB3A /* PProfileView */,
+				046F197529A6BAC200E3EB3A /* CollectionViewCell */,
+				046F197029A6B4F700E3EB3A /* Resurses */,
+			);
+			path = KOKTILIIII;
+			sourceTree = "<group>";
+		};
+		046F195629A6B3B000E3EB3A /* KOKTILIIIITests */ = {
+			isa = PBXGroup;
+			children = (
+				046F195729A6B3B000E3EB3A /* KOKTILIIIITests.swift */,
+			);
+			path = KOKTILIIIITests;
+			sourceTree = "<group>";
+		};
+		046F196029A6B3B000E3EB3A /* KOKTILIIIIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046F196129A6B3B000E3EB3A /* KOKTILIIIIUITests.swift */,
+				046F196329A6B3B000E3EB3A /* KOKTILIIIIUITestsLaunchTests.swift */,
+			);
+			path = KOKTILIIIIUITests;
+			sourceTree = "<group>";
+		};
+		046F197029A6B4F700E3EB3A /* Resurses */ = {
+			isa = PBXGroup;
+			children = (
+				046F197A29A6C35B00E3EB3A /* ImageVIew.swift */,
+				046F194629A6B3AD00E3EB3A /* Main.storyboard */,
+				046F194929A6B3B000E3EB3A /* Assets.xcassets */,
+				046F194B29A6B3B000E3EB3A /* LaunchScreen.storyboard */,
+				046F194E29A6B3B000E3EB3A /* Info.plist */,
+			);
+			path = Resurses;
+			sourceTree = "<group>";
+		};
+		046F197529A6BAC200E3EB3A /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				046F197629A6BAF200E3EB3A /* KokoCollectinViewCell.swift */,
+				046F197729A6BAF200E3EB3A /* KokoCollectinViewCell.xib */,
+				046F19BE29A7756800E3EB3A /* PeopleSmscell.swift */,
+				046F19BF29A7756800E3EB3A /* PeopleSmscell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		046F19B829A7624B00E3EB3A /* PProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				046F19B929A7626E00E3EB3A /* ProfileView.swift */,
+			);
+			path = PProfileView;
+			sourceTree = "<group>";
+		};
+		046F19BB29A76A1000E3EB3A /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				046F19BC29A76A2E00E3EB3A /* InfoView.swift */,
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		046F19CA29A95FD000E3EB3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046F19CE29A9608500E3EB3A /* DTO */,
+				046F19CD29A9603900E3EB3A /* NetworkLayre */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046F19CB29A95FDC00E3EB3A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				046F19D029A9616500E3EB3A /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		046F19CC29A95FF400E3EB3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046F194429A6B3AD00E3EB3A /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046F19CD29A9603900E3EB3A /* NetworkLayre */ = {
+			isa = PBXGroup;
+			children = (
+				046F197129A6B79100E3EB3A /* NetworkLyare.swift */,
+			);
+			path = NetworkLayre;
+			sourceTree = "<group>";
+		};
+		046F19CE29A9608500E3EB3A /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				046F197329A6B81300E3EB3A /* Drinks.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		046F19CF29A960F000E3EB3A /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				046F194029A6B3AD00E3EB3A /* AppDelegate.swift */,
+				046F194229A6B3AD00E3EB3A /* SceneDelegate.swift */,
+				046F19C229A8F2AC00E3EB3A /* DataBase.swift */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		42AAF162F834F143B0EEC180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89758745B4D35F0F2B64EBC2 /* Pods-KOKTILIIII.debug.xcconfig */,
+				1993F06CC2CB8B7FCF8EBEC8 /* Pods-KOKTILIIII.release.xcconfig */,
+				AE01C6C184E5B8224EB99577 /* Pods-KOKTILIIII-KOKTILIIIIUITests.debug.xcconfig */,
+				808656BB39402306567A978F /* Pods-KOKTILIIII-KOKTILIIIIUITests.release.xcconfig */,
+				E703AB3B79EA780ED30BF09D /* Pods-KOKTILIIIITests.debug.xcconfig */,
+				8958F322B6DF23526728DC71 /* Pods-KOKTILIIIITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6A3DAE7C8CD6CB90989DC97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7928266A94BF4ABEBA81EB7F /* Pods_KOKTILIIII.framework */,
+				E5E7A213A6D8BCBEB7CCAEB4 /* Pods_KOKTILIIII_KOKTILIIIIUITests.framework */,
+				BCB26C7FFA7FF5A8D0DAB68D /* Pods_KOKTILIIIITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046F193C29A6B3AD00E3EB3A /* KOKTILIIII */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F196729A6B3B000E3EB3A /* Build configuration list for PBXNativeTarget "KOKTILIIII" */;
+			buildPhases = (
+				57168DCF6B0EB6D625F15044 /* [CP] Check Pods Manifest.lock */,
+				046F193929A6B3AD00E3EB3A /* Sources */,
+				046F193A29A6B3AD00E3EB3A /* Frameworks */,
+				046F193B29A6B3AD00E3EB3A /* Resources */,
+				7585D615E865F6DC167F0A9E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KOKTILIIII;
+			productName = KOKTILIIII;
+			productReference = 046F193D29A6B3AD00E3EB3A /* KOKTILIIII.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046F195229A6B3B000E3EB3A /* KOKTILIIIITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F196A29A6B3B000E3EB3A /* Build configuration list for PBXNativeTarget "KOKTILIIIITests" */;
+			buildPhases = (
+				D3BAB7247C02499AEE9FEBD1 /* [CP] Check Pods Manifest.lock */,
+				046F194F29A6B3B000E3EB3A /* Sources */,
+				046F195029A6B3B000E3EB3A /* Frameworks */,
+				046F195129A6B3B000E3EB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046F195529A6B3B000E3EB3A /* PBXTargetDependency */,
+			);
+			name = KOKTILIIIITests;
+			productName = KOKTILIIIITests;
+			productReference = 046F195329A6B3B000E3EB3A /* KOKTILIIIITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046F195C29A6B3B000E3EB3A /* KOKTILIIIIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F196D29A6B3B000E3EB3A /* Build configuration list for PBXNativeTarget "KOKTILIIIIUITests" */;
+			buildPhases = (
+				7177B4DEBEF1C37177E25870 /* [CP] Check Pods Manifest.lock */,
+				046F195929A6B3B000E3EB3A /* Sources */,
+				046F195A29A6B3B000E3EB3A /* Frameworks */,
+				046F195B29A6B3B000E3EB3A /* Resources */,
+				4BA18133F5ABE4717C29733C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046F195F29A6B3B000E3EB3A /* PBXTargetDependency */,
+			);
+			name = KOKTILIIIIUITests;
+			productName = KOKTILIIIIUITests;
+			productReference = 046F195D29A6B3B000E3EB3A /* KOKTILIIIIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046F193529A6B3AD00E3EB3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					046F193C29A6B3AD00E3EB3A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					046F195229A6B3B000E3EB3A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 046F193C29A6B3AD00E3EB3A;
+					};
+					046F195C29A6B3B000E3EB3A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 046F193C29A6B3AD00E3EB3A;
+					};
+				};
+			};
+			buildConfigurationList = 046F193829A6B3AD00E3EB3A /* Build configuration list for PBXProject "KOKTILIIII" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046F193429A6B3AD00E3EB3A;
+			productRefGroup = 046F193E29A6B3AD00E3EB3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046F193C29A6B3AD00E3EB3A /* KOKTILIIII */,
+				046F195229A6B3B000E3EB3A /* KOKTILIIIITests */,
+				046F195C29A6B3B000E3EB3A /* KOKTILIIIIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046F193B29A6B3AD00E3EB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F194D29A6B3B000E3EB3A /* LaunchScreen.storyboard in Resources */,
+				046F194A29A6B3B000E3EB3A /* Assets.xcassets in Resources */,
+				046F19C129A7756800E3EB3A /* PeopleSmscell.xib in Resources */,
+				046F197929A6BAF200E3EB3A /* KokoCollectinViewCell.xib in Resources */,
+				046F194829A6B3AD00E3EB3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F195129A6B3B000E3EB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F195B29A6B3B000E3EB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BA18133F5ABE4717C29733C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KOKTILIIII-KOKTILIIIIUITests/Pods-KOKTILIIII-KOKTILIIIIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KOKTILIIII-KOKTILIIIIUITests/Pods-KOKTILIIII-KOKTILIIIIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KOKTILIIII-KOKTILIIIIUITests/Pods-KOKTILIIII-KOKTILIIIIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57168DCF6B0EB6D625F15044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KOKTILIIII-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7177B4DEBEF1C37177E25870 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KOKTILIIII-KOKTILIIIIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7585D615E865F6DC167F0A9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KOKTILIIII/Pods-KOKTILIIII-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KOKTILIIII/Pods-KOKTILIIII-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KOKTILIIII/Pods-KOKTILIIII-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3BAB7247C02499AEE9FEBD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KOKTILIIIITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046F193929A6B3AD00E3EB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F19BA29A7626E00E3EB3A /* ProfileView.swift in Sources */,
+				046F197829A6BAF200E3EB3A /* KokoCollectinViewCell.swift in Sources */,
+				046F197B29A6C35B00E3EB3A /* ImageVIew.swift in Sources */,
+				046F197429A6B81300E3EB3A /* Drinks.swift in Sources */,
+				046F19C029A7756800E3EB3A /* PeopleSmscell.swift in Sources */,
+				046F197229A6B79100E3EB3A /* NetworkLyare.swift in Sources */,
+				046F19C329A8F2AC00E3EB3A /* DataBase.swift in Sources */,
+				046F194529A6B3AD00E3EB3A /* ViewController.swift in Sources */,
+				046F194129A6B3AD00E3EB3A /* AppDelegate.swift in Sources */,
+				046F19BD29A76A2E00E3EB3A /* InfoView.swift in Sources */,
+				046F194329A6B3AD00E3EB3A /* SceneDelegate.swift in Sources */,
+				046F19D129A9616500E3EB3A /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F194F29A6B3B000E3EB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F195829A6B3B000E3EB3A /* KOKTILIIIITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F195929A6B3B000E3EB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F196429A6B3B000E3EB3A /* KOKTILIIIIUITestsLaunchTests.swift in Sources */,
+				046F196229A6B3B000E3EB3A /* KOKTILIIIIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046F195529A6B3B000E3EB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046F193C29A6B3AD00E3EB3A /* KOKTILIIII */;
+			targetProxy = 046F195429A6B3B000E3EB3A /* PBXContainerItemProxy */;
+		};
+		046F195F29A6B3B000E3EB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046F193C29A6B3AD00E3EB3A /* KOKTILIIII */;
+			targetProxy = 046F195E29A6B3B000E3EB3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046F194629A6B3AD00E3EB3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F194729A6B3AD00E3EB3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046F194B29A6B3B000E3EB3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F194C29A6B3B000E3EB3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046F196529A6B3B000E3EB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046F196629A6B3B000E3EB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046F196829A6B3B000E3EB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89758745B4D35F0F2B64EBC2 /* Pods-KOKTILIIII.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU4A85R5R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KOKTILIIII/Resurses/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mark2.KOKTILIIII;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046F196929A6B3B000E3EB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1993F06CC2CB8B7FCF8EBEC8 /* Pods-KOKTILIIII.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU4A85R5R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KOKTILIIII/Resurses/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mark2.KOKTILIIII;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046F196B29A6B3B000E3EB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E703AB3B79EA780ED30BF09D /* Pods-KOKTILIIIITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU4A85R5R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mark2.KOKTILIIIITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOKTILIIII.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KOKTILIIII";
+			};
+			name = Debug;
+		};
+		046F196C29A6B3B000E3EB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8958F322B6DF23526728DC71 /* Pods-KOKTILIIIITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU4A85R5R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mark2.KOKTILIIIITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOKTILIIII.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KOKTILIIII";
+			};
+			name = Release;
+		};
+		046F196E29A6B3B000E3EB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE01C6C184E5B8224EB99577 /* Pods-KOKTILIIII-KOKTILIIIIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU4A85R5R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mark2.KOKTILIIIIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KOKTILIIII;
+			};
+			name = Debug;
+		};
+		046F196F29A6B3B000E3EB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808656BB39402306567A978F /* Pods-KOKTILIIII-KOKTILIIIIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU4A85R5R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mark2.KOKTILIIIIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KOKTILIIII;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046F193829A6B3AD00E3EB3A /* Build configuration list for PBXProject "KOKTILIIII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F196529A6B3B000E3EB3A /* Debug */,
+				046F196629A6B3B000E3EB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046F196729A6B3B000E3EB3A /* Build configuration list for PBXNativeTarget "KOKTILIIII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F196829A6B3B000E3EB3A /* Debug */,
+				046F196929A6B3B000E3EB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046F196A29A6B3B000E3EB3A /* Build configuration list for PBXNativeTarget "KOKTILIIIITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F196B29A6B3B000E3EB3A /* Debug */,
+				046F196C29A6B3B000E3EB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046F196D29A6B3B000E3EB3A /* Build configuration list for PBXNativeTarget "KOKTILIIIIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F196E29A6B3B000E3EB3A /* Debug */,
+				046F196F29A6B3B000E3EB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046F193529A6B3AD00E3EB3A /* Project object */;
+}
